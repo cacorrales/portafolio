@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta name="viewport" content="width-device-width initial-scale=1.0">
+    <meta charset="ut-8">
+    <meta name="viewport" content="">
+    <title>Encriptador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bases.css">
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/btn.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/48693cb63e.js" crossorigin="anonymous"></script>
+
+</head>
+    <body>
+        <header class="head container">
+            <img class="head__logo" src="img/images.png" alt="Logo de Oracle Alura Latam">
+        </header>
+        <main>
+            <section class="seccion-mensaje">
+                <label class="msn-mensaje" for="mensaje"></label>
+                <input class="text-msn" type="text" id="mensaje" placeholder="Ingrese su mensaje">
+                <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+            </section>
+
+            <section class="seccion-encriptado">
+                <label class="l-resultado" for="resultado">Resultado :</label><br>
+                <span class="span" id="resultado"></span>
+            </section>
+
+            <section class="seccion-copiar-desencriptar">
+                <p>Texto desencriptado: <span id="desencriptado"></span></p>
+                <button class="btn-copiar" onclick="copiar()">Copiar resultado</button>
+                <button class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </section>
+        </main>
+        <script src="script.js"></script>
+
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="img/logo.png" alt="Logo">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p class="pie">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, blanditiis.</p>
+                    <p class="pie" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, fugiat.</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            <div class="grupo-2">
+                <small>&copy; 2023 <b>Carlos Corrales</b> - Todos los Derechos Reservado -</small>
+            </div>
+        </footer>
+    </body>
+</html>

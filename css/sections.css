@@ -1,0 +1,30 @@
+.seccion-mensaje{
+    float: left;
+    width: 400px;
+    height: 550px;
+    background-color: #0a141d;
+    border-radius: 1rem;
+    margin: 150px 20px 0 20px;
+
+
+}
+
+.seccion-encriptado{
+    float: left;
+    width: 400px;
+    height: 550px;
+    background-color: #0a141d;
+    border-radius: 1rem;
+    margin: 150px 20px 0 20px;
+
+}
+
+.seccion-copiar-desencriptar{
+    float: left;
+    width: 550px;
+    height: 550px;
+    background-color: #0a141d;
+    border-radius: 1rem;
+    margin: 150px 10px 0 10px;
+
+}

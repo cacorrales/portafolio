@@ -1,0 +1,50 @@
+.btn-encriptar{
+    margin: 250px 130px;
+    width: 250px;
+    height: 80px;
+    border-radius: 2rem;
+    border-color: 1rem #0f0303;
+    align-self: center;
+    margin-top: 250px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 20px;
+    background-color: #726e6e;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-copiar{
+    margin: 250px 130px;
+    width: 150px;
+    height: 80px;
+    border-radius: 2rem;
+    border-color: 1rem #0f0303;
+    align-self: center;
+    margin-top: 250px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 20px;
+    background-color: #726e6e;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-desencriptar{
+    margin: 250px 130px;
+    width: 150px;
+    height: 80px;
+    border-radius: 2rem;
+    border-color: 1rem #0f0303;
+    align-self: center;
+    margin-top: 250px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 20px;
+    background-color: #726e6e;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
