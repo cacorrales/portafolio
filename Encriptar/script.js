@@ -40,6 +40,28 @@ function encriptar() {
   }
   
   function desencriptar() {
+    var equivalencias = {
+      'ai': 'a',
+      'enter': 'e',
+      'ines': 'i',
+      'ober': 'o',
+      'ufat': 'u'
+    };
+  
+    var resultado = document.getElementById("encriptado").value;
+    var desencriptado = resultado;
+  
+    for (var clave in equivalencias) {
+      var valor = equivalencias[clave];
+      var expresion = new RegExp(clave, 'g');
+      desencriptado = desencriptado.replace(expresion, valor);
+    }
+  
+    document.getElementById("desencriptado").value = desencriptado;
+  }
+
+  /*
+  function desencriptar() {
     var resultado = document.getElementById("resultado").textContent;
     var desencriptado = "";
     for (var i = 0; i < resultado.length; i++) {
@@ -60,3 +82,4 @@ function encriptar() {
     }
     document.getElementById("desencriptado").textContent = desencriptado;
   }
+  */
